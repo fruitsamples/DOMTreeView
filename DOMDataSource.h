@@ -59,8 +59,8 @@ Change History (most recent first):
 @interface DOMDataSource : NSObject {
     IBOutlet WebView *_webView;
     IBOutlet NSOutlineView *_outlineView; 
-	IBOutlet NSTextField *_urlField;
-	IBOutlet NSTextView  *_srcField;
+    IBOutlet NSTextField *_urlField;
+    IBOutlet NSTextView  *_srcField;
     DOMNode *_root;
     NSMutableSet *nodes;
 }
